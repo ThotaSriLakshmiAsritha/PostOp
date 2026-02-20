@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clinical_levels">
+        <item>None</item>
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+    
+    <string-array name="mobility_levels">
+        <item>Bedridden</item>
+        <item>Limited</item>
+        <item>Moderate</item>
+        <item>Normal</item>
+    </string-array>
+    
+    <string-array name="appetite_levels">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    
+    <string-array name="fatigue_levels">
+        <item>None</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+    
+    <string-array name="mood_levels">
+        <item>Very Poor</item>
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+</resources>

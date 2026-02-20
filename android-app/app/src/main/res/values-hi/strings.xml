@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">पोस्ट-ऑप गार्जियन</string>
+    
+    <!-- Navigation -->
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_logs">दैनिक लॉग</string>
+    <string name="title_chat">चैट</string>
+    <string name="title_profile">प्रोफ़ाइल</string>
+    
+    <!-- Auth -->
+    <string name="login">लॉगिन</string>
+    <string name="register">पंजीकरण</string>
+    
+    <!-- Dashboard -->
+    <string name="risk_status">जोखिम स्थिति: %s</string>
+    <string name="sos_button">एसओएस</string>
+    
+    <!-- Risks -->
+    <string name="risk_green">सामान्य</string>
+    <string name="risk_yellow">ध्यान देने की आवश्यकता</string>
+    <string name="risk_red">उच्च जोखिम</string>
+</resources>

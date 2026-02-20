@@ -1,0 +1,27 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Android build
+android-app/build/
+android-app/.gradle/
+android-app/local.properties
+android-app/*.jks
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.venv
+backend/venv/
+*.egg-info/
+backend/.pytest_cache/
+
+# Mac
+.DS_Store
+
+# General
+*.log

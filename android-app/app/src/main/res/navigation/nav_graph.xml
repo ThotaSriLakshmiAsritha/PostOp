@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.postopguardian.ui.auth.SplashFragment"
+        android:label="Splash" >
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splash_to_patient_main"
+            app:destination="@id/patientDashboardFragment" />
+        <action
+            android:id="@+id/action_splash_to_doctor_main"
+            app:destination="@id/doctorPatientsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.postopguardian.ui.auth.LoginFragment"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_patient_main"
+            app:destination="@id/patientDashboardFragment" />
+        <action
+            android:id="@+id/action_login_to_doctor_main"
+            app:destination="@id/doctorPatientsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.postopguardian.ui.auth.RegisterFragment"
+        android:label="Register" >
+        <action
+            android:id="@+id/action_register_to_patient_main"
+            app:destination="@id/patientDashboardFragment" />
+        <action
+            android:id="@+id/action_register_to_doctor_main"
+            app:destination="@id/doctorPatientsFragment" />
+    </fragment>
+
+    <!-- Patient Flow -->
+    <fragment
+        android:id="@+id/patientDashboardFragment"
+        android:name="com.postopguardian.ui.patient.DashboardFragment"
+        android:label="Dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_dailylog"
+            app:destination="@id/dailyLogFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_chat"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_reminders"
+            app:destination="@id/remindersFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_emergency"
+            app:destination="@id/emergencyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyLogFragment"
+        android:name="com.postopguardian.ui.patient.DailyLogFragment"
+        android:label="Daily Log" >
+        <action
+            android:id="@+id/action_dailylog_to_dashboard"
+            app:destination="@id/patientDashboardFragment" />
+        <action
+            android:id="@+id/action_dailylog_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/remindersFragment"
+        android:name="com.postopguardian.ui.patient.RemindersFragment"
+        android:label="Reminders" >
+        <action
+            android:id="@+id/action_reminders_to_dashboard"
+            app:destination="@id/patientDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.postopguardian.ui.chat.ChatFragment"
+        android:label="Chat" >
+        <action
+            android:id="@+id/action_chat_to_dashboard"
+            app:destination="@id/patientDashboardFragment" />
+        <action
+            android:id="@+id/action_chat_to_dailylog"
+            app:destination="@id/dailyLogFragment" />
+    </fragment>
+
+    <!-- Doctor Flow -->
+    <fragment
+        android:id="@+id/doctorPatientsFragment"
+        android:name="com.postopguardian.ui.doctor.PatientsFragment"
+        android:label="Patients" >
+        <action
+            android:id="@+id/action_patients_to_alerts"
+            app:destination="@id/doctorAlertsFragment" />
+        <action
+            android:id="@+id/action_patients_to_detail"
+            app:destination="@id/doctorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorAlertsFragment"
+        android:name="com.postopguardian.ui.doctor.AlertsFragment"
+        android:label="Alerts" >
+        <action
+            android:id="@+id/action_alerts_to_patients"
+            app:destination="@id/doctorPatientsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorDetailFragment"
+        android:name="com.postopguardian.ui.doctor.DoctorDetailFragment"
+        android:label="Patient Detail" />
+
+    <fragment
+        android:id="@+id/emergencyFragment"
+        android:name="com.postopguardian.ui.emergency.EmergencyFragment"
+        android:label="Emergency" />
+</navigation>
