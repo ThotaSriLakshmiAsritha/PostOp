@@ -1,0 +1,50 @@
+{
+  "src/components/doctor/DoctorChatPage.tsx": [
+    "{messages.length === 0 ? ("
+  ],
+  "src/components/doctor/DoctorHome.tsx": [
+    "{redAlerts.length === 0 ? (",
+    "{flaggedPatients.length === 0 ? ("
+  ],
+  "src/components/doctor/PatientDetail.tsx": [
+    "0 && (",
+    "{alerts.length === 0 ? (",
+    "{alert.acknowledged && ("
+  ],
+  "src/components/doctor/PatientList.tsx": [
+    "{filteredPatients.length === 0 ? ("
+  ],
+  "src/components/doctor/SymptomLogsViewer.tsx": [
+    "{loading ? ("
+  ],
+  "src/components/patient/ChatPage.tsx": [
+    "{meetLink ? (",
+    "{messages.length === 0 ? ("
+  ],
+  "src/components/patient/PatientHome.tsx": [
+    "{riskStatus === 'RED' && (",
+    "{latestAlert ? (",
+    "0 && ("
+  ],
+  "src/components/patient/RemindersPage.tsx": [
+    "{reminders.length === 0 ? (",
+    "{!reminder.enabled &&"
+  ],
+  "src/components/patient/SymptomLogging.tsx": [
+    "{error && (",
+    "{loading ?",
+    ": t('submitSymptomLog', 'Submit Symptom Log')}"
+  ],
+  "src/components/patient/SymptomLogsViewerPatient.tsx": [
+    "{loading ? ("
+  ],
+  "src/contexts/AuthContext.tsx": [
+    "Promise"
+  ],
+  "src/pages/LoginPage.tsx": [
+    "{error && ("
+  ],
+  "src/pages/RegisterPage.tsx": [
+    "{error && ("
+  ]
+}

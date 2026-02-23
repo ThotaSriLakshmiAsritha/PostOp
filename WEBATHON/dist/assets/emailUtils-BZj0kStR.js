@@ -1,0 +1,1 @@
+function i(s,e="",n=""){const t="https://mail.google.com/mail/?view=cm&fs=1",o=new URLSearchParams;s&&o.set("to",s),e&&o.set("su",e),n&&o.set("body",n);const a=`${t}&${o.toString()}`;window.open(a,"_blank")}export{i as openGmailCompose};
