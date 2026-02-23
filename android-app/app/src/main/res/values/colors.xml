@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_primary">#F6F8FB</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="accent_soft">#EAF3FF</color>
+    <color name="teal_primary">#1FA39A</color>
+    <color name="teal_primary_dark">#147F77</color>
+    <color name="indigo_soft">#5B7CFA</color>
+    <color name="surface_stroke">#DCE4EC</color>
+
+    <color name="risk_green_bg">#E7F7EE</color>
+    <color name="risk_green_text">#1D8F58</color>
+    <color name="risk_yellow_bg">#FFF8E1</color>
+    <color name="risk_yellow_text">#9C6A00</color>
+    <color name="risk_red_bg">#FDEBEC</color>
+    <color name="risk_red_text">#C63D3D</color>
+
+    <color name="sos_bg">#E45454</color>
+    <color name="sos_text">#FFFFFF</color>
+    <color name="chat_mine_bg">#1FA39A</color>
+    <color name="chat_theirs_bg">#E6EBF2</color>
+</resources>

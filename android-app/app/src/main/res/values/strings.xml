@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Post-Op Guardian</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_logs">Daily Log</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_patients">Patients</string>
+    <string name="title_alerts">Alerts</string>
+    <string name="title_profile">Profile</string>
+    <string name="risk_status">Risk Status</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="role_patient">Patient</string>
+    <string name="role_doctor">Doctor</string>
+
+    <string name="sos_button">SOS</string>
+    <string name="language">Language</string>
+    <string name="open_daily_log">Open Daily Log</string>
+    <string name="open_chat">Open Chat</string>
+    <string name="video_consultation">Video Consultation</string>
+    <string name="reminders">Reminders</string>
+    <string name="latest_alert">Latest Alert</string>
+    <string name="upcoming_reminders">Upcoming Reminders</string>
+    <string name="no_alerts">No alerts</string>
+    <string name="no_reminders">No upcoming reminders</string>
+    <string name="pain_trend">Pain Trend</string>
+    <string name="temperature_trend">Temperature Trend</string>
+    <string name="recovery_trend">Recovery Trend</string>
+    <string name="recovery_score_label">Recovery Score</string>
+    <string name="days_since_surgery_label">Days Since Surgery</string>
+    <string name="reassurance_message">Recovery is on track. Continue your plan.</string>
+    <string name="warning_message">Warning signs detected. Monitor closely and chat with doctor.</string>
+    <string name="urgent_message">Urgent risk detected. Contact your doctor immediately.</string>
+
+    <string name="submit_log">Submit Daily Log</string>
+    <string name="pain_level">Pain Level (0-10)</string>
+    <string name="temperature">Temperature (deg C)</string>
+    <string name="redness">Wound Redness</string>
+    <string name="swelling">Swelling</string>
+    <string name="discharge">Discharge / Pus</string>
+    <string name="antibiotics_taken">Antibiotics Taken</string>
+    <string name="mobility">Mobility Level</string>
+    <string name="sleep_hours">Sleep Hours</string>
+    <string name="appetite">Appetite</string>
+    <string name="fatigue">Fatigue</string>
+    <string name="mood">Mood</string>
+    <string name="pain_meds_taken">Pain Medication Taken</string>
+    <string name="dressing_changed">Dressing Changed</string>
+
+    <string name="risk_green">GREEN</string>
+    <string name="risk_yellow">YELLOW</string>
+    <string name="risk_red">RED</string>
+
+    <string name="log_submitted">Daily log submitted.</string>
+    <string name="log_error">Error submitting log.</string>
+    <string name="loading">Loading...</string>
+    <string name="invalid_temperature">Enter a valid temperature (30-45).</string>
+
+    <string name="call_doctor">Call Doctor</string>
+    <string name="call_caregiver">Call Caregiver</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="choose_action">Choose an emergency action.</string>
+    <string name="phone_not_available">Phone number unavailable.</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="open_alerts">Open Alerts</string>
+    <string name="filter_all">All</string>
+    <string name="filter_yellow">Yellow only</string>
+    <string name="filter_red">Red only</string>
+    <string name="high_priority_summary">High-priority summary</string>
+    <string name="priority_summary_value">RED: %1$d, YELLOW: %2$d</string>
+    <string name="last_update_value">Last update: %1$s</string>
+
+    <string name="acknowledge_alert">Acknowledge Alert</string>
+    <string name="ack_note">Acknowledgement note</string>
+    <string name="alert_acknowledged">Alert acknowledged.</string>
+    <string name="alert_ack_failed">Failed to acknowledge alert.</string>
+    <string name="patient_value">Patient: %1$s</string>
+    <string name="submit">Submit</string>
+
+    <string name="follow_up_title">Follow-up title</string>
+    <string name="schedule_followup">Schedule Follow-up</string>
+    <string name="med_adherence_value">Medication adherence: %1$d%%</string>
+    <string name="missed_reminders_value">Missed reminders: %1$d</string>
+
+    <string name="delete_reminder">Delete reminder?</string>
+    <string name="delete_reminder_confirm">This reminder will be removed.</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="required">Required</string>
+    <string name="reminder_save_failed">Failed to save reminder.</string>
+    <string name="message_send_failed">Failed to send message.</string>
+    <string name="error_role_mismatch">Selected role does not match your account.</string>
+    <string name="error_user_data_missing">Could not verify user profile. Please register again.</string>
+    <string name="backend_unreachable_offline_used">Server unreachable. Log saved and offline risk used.</string>
+    <string name="offline_risk_message">Offline risk estimated from your daily log.</string>
+    <string name="logout">Logout</string>
+    <string name="sos_sent">SOS alert sent.</string>
+    <string name="emergency_hint">Use this screen for urgent contact actions. For power-button emergency, use your phone\'s built-in Emergency SOS setting.</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="daily_log_step_1">Step 1 of 3  Clinical Check</string>
+    <string name="daily_log_step_2">Step 2 of 3  Functional Recovery</string>
+    <string name="daily_log_step_3">Step 3 of 3  Medication Adherence</string>
+    <string name="daily_log_help">Answer each step with quick controls. This helps keep your daily check-in short and clear.</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="red_cases_value">Red Cases: %1$d</string>
+    <string name="yellow_cases_value">Yellow Cases: %1$d</string>
+    <string name="doctor_alert_hint">Prioritize red alerts first and acknowledge as soon as reviewed.</string>
+    <string name="back_to_patients">Back to Patients</string>
+    <string name="welcome_subtitle">Track recovery safely, one day at a time.</string>
+    <string name="dashboard_subtitle">Your recovery status today</string>
+    <string name="trends_section">Trends</string>
+    <string name="alerts_and_reminders">Alerts &amp; Reminders</string>
+    <string name="risk_label_today">Today\'s risk status</string>
+    <string name="chat_with_doctor">Chat with Doctor</string>
+    <string name="type_message">Type a message…</string>
+    <string name="message_time_placeholder">Now</string>
+    <string name="reminders_subtitle">Never miss medication or dressing care.</string>
+    <string name="medication_reminders">Medication Reminders</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="reminder_title">Reminder title</string>
+    <string name="time_label">Time</string>
+    <string name="select_time">Select time</string>
+    <string name="repeat_daily">Repeat daily</string>
+    <string name="add_to_calendar">Add to Google Calendar</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="doctor_dashboard">Doctor Dashboard</string>
+    <string name="flagged_patients">Flagged Patients</string>
+    <string name="search_patients">Search patients</string>
+    <string name="pending_only">Pending only</string>
+    <string name="all_alerts">All alerts</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="recent_logs">Recent Logs</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="secure_monitoring">Secure monitoring for post-op recovery</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="choose_role">Choose role</string>
+</resources>

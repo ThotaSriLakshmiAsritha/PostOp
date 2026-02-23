@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Theme.PostOpGuardian" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#26A69A</item>
+        <item name="colorPrimaryVariant">#00796B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#5C6BC0</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:colorBackground">#F5F7FA</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#212121</item>
+
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#444444</item>
+        <item name="android:textColorHint">#777777</item>
+
+        <item name="android:statusBarColor">#00796B</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+</resources>

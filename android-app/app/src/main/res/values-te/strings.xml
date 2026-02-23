@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">పోస్ట్-ఆప్ గార్డియన్</string>
+    
+    <!-- Navigation -->
+    <string name="title_dashboard">డ్యాష్‌బోర్డ్</string>
+    <string name="title_logs">రోజువారీ లాగ్</string>
+    <string name="title_chat">చాట్</string>
+    <string name="title_profile">ప్రొఫైల్</string>
+    
+    <!-- Auth -->
+    <string name="login">లాగిన్</string>
+    <string name="register">నమోదు</string>
+    
+    <!-- Dashboard -->
+    <string name="risk_status">ప్రమాద స్థితి: %s</string>
+    <string name="sos_button">SOS</string>
+    
+    <!-- Risks -->
+    <string name="risk_green">సాధారణం</string>
+    <string name="risk_yellow">శ్రద్ధ అవసరం</string>
+    <string name="risk_red">అధిక ప్రమాదం</string>
+</resources>
